@@ -1,0 +1,92 @@
+Name:     Murray Lynch
+Login:    mdlynch
+Precept:  P04
+Filename: encode.toy
+
+This program reads set of 7 1-bit values, the last 3 of
+which are partiy bits. Using the Hamming Code method,
+it determines which of the first 4 bits are corrupted
+using the parity bits. It then outputs the corrected
+data.
+
+Sample run:
+% java-introcs TOY decode.toy < decode1.txt
+<initial core dump>
+0001
+0001
+0000
+0001
+<final core dump>
+
+-----------------------------------------------------------------------------
+loc value  pseudocode (for the humans)   Java equivalent (optional)
+-----------------------------------------------------------------------------
+
+reads in first value to determine if
+end of file
+10: 81FF   read R[1]                     
+11: 7801   R[8] <- 0001                  
+12: 1918   R[9] <- R[1] + R[8]
+13: C935   if (R[9] == 0) goto 35
+
+reads rest of set of 7 bits
+14: 82FF   read R[2]                     
+15: 83FF   read R[3]
+16: 84FF   read R[4]
+17: 85FF   read R[5]
+18: 86FF   read R[6]
+19: 87FF   read R[7]
+
+calculates parity bits
+1A: 4A12   R[A] <- R[1] ^ R[2]         
+1B: 4AA4   R[A] <- R[A] ^ R[4]           
+
+1C: 4B13   R[B] <- R[1] ^ R[3]           
+1D: 4BB4   R[B] <- R[B] ^ R[4]            
+
+1E: 4C23   R[C] <- R[2] ^ R[3]                         
+1F: 4CC4   R[C] <- R[C] ^ R[4]
+
+compares calculated parity bits with
+given partiy bits
+20: 4DA5   R[D] <- R[A] ^ R[5]
+21: 4EB6   R[E] <- R[B] ^ R[6]
+22: 4FC7   R[F] <- R[C] ^ R[7]
+
+if all partiy tests fail, correct fourth
+bit
+23: CD28   if (R[D] == 0) goto 28
+24: CE2C   if (R[E] == 0) goto 2C
+25: CF2F   if (R[F] == 0) goto 2F
+26: 4448   R[4] <- R[4] ^ R[8]
+27: C030   goto 30
+
+directed here if first parity test passes
+if second and third parity test fail correct
+third bit
+28: CE30   if (R[E] == 0) goto 30
+29: CF30   if (R[F] == 0) goto 30
+2A: 4338   R[3] <- R[3] ^ R[8]
+2B: C030   goto 30
+
+directed here if first parity test fails
+and second passes. If third fails, correct
+second parity bit
+2C: CF30   if (R[F] == 0) goto 30
+2D: 4228   R[2] <- R[2] ^ R[8]
+2E: C030   goto 30
+
+directed here if first two parity tests fail
+and third passes. Corrects first bit
+2F: 4118   R[1] <- R[1] ^ R[8]
+
+writes first four bits to StdOut
+30: 91FF   write R[1]
+31: 92FF   write R[2]
+32: 93FF   write R[3]
+33: 94FF   write R[4]
+
+repeat reading data from StdIn
+34: C010  goto 10 
+
+35: 0000  halt                     

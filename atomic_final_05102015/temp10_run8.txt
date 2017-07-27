@@ -1,0 +1,188 @@
+5.0082
+2.2606
+4.0777
+2.2603
+6.4520
+10.2285
+4.5084
+8.5722
+3.5704
+5.3273
+
+5.0636
+8.4805
+3.4803
+3.6392
+5.3029
+6.9035
+2.1284
+6.9297
+2.8826
+3.7436
+
+8.1205
+6.3952
+3.2091
+5.3900
+6.3925
+5.7886
+4.5377
+5.5229
+3.2740
+7.0660
+5.0940
+3.2501
+
+3.4525
+3.9235
+7.1055
+2.8152
+3.2744
+6.1543
+3.7438
+1.0916
+1.6493
+2.7758
+5.8671
+10.5928
+6.3018
+
+1.7536
+3.6043
+9.0062
+4.3387
+2.4452
+5.3173
+5.7578
+0.9174
+5.6783
+5.1346
+7.5544
+4.4721
+
+10.6145
+4.0339
+8.6003
+2.3836
+1.5564
+0.4024
+3.9807
+5.4334
+3.1858
+6.1586
+2.2240
+5.8611
+
+1.2600
+6.7223
+4.6562
+9.1300
+7.0577
+4.3633
+5.7240
+4.3393
+2.4704
+4.4859
+3.8321
+
+0.8019
+3.6616
+3.2714
+6.4649
+7.7509
+5.9975
+1.1029
+2.9020
+1.3497
+
+5.7336
+4.5182
+3.6365
+3.5345
+8.9894
+2.1885
+5.9507
+6.1932
+5.4617
+
+
+Flat profile of 1.85 secs (123 total ticks): main
+
+  Interpreted + native   Method                        
+ 30.1%     0  +    37    java.lang.ClassLoader$NativeLibrary.load
+  8.1%     0  +    10    com.sun.imageio.plugins.jpeg.JPEGImageReader.readImage
+  3.3%     0  +     4    java.util.zip.ZipFile.open
+  1.6%     2  +     0    sun.awt.image.ByteInterleavedRaster.putByteData
+  0.8%     0  +     1    sun.misc.Unsafe.defineAnonymousClass
+  0.8%     1  +     0    java.awt.image.Raster.<clinit>
+  0.8%     1  +     0    sun.reflect.DelegatingMethodAccessorImpl.<init>
+  0.8%     1  +     0    sun.invoke.util.Wrapper.basicTypeChar
+  0.8%     1  +     0    java.lang.invoke.MethodHandle.<init>
+  0.8%     1  +     0    jdk.internal.org.objectweb.asm.ClassWriter.addType
+  0.8%     1  +     0    java.io.ByteArrayInputStream.read
+  0.8%     1  +     0    javax.imageio.stream.ImageInputStreamImpl.mark
+  0.8%     1  +     0    java.awt.Image.<clinit>
+  0.8%     1  +     0    sun.misc.FDBigInteger.mult
+  0.8%     1  +     0    java.lang.invoke.LambdaForm.basicType
+  0.8%     1  +     0    javax.imageio.stream.FileImageInputStream.read
+  0.8%     1  +     0    Picture.get
+  0.8%     1  +     0    java.lang.invoke.LambdaForm.basicTypeSignature
+  0.8%     1  +     0    java.lang.invoke.MethodType.makeImpl
+  0.8%     1  +     0    sun.misc.URLClassPath.getResource
+  0.8%     1  +     0    jdk.internal.org.objectweb.asm.Frame.push
+  0.8%     1  +     0    java.util.jar.JarFile.match
+  0.8%     1  +     0    java.lang.String.indexOf
+  0.8%     1  +     0    sun.invoke.util.BytecodeDescriptor.parseMethod
+  0.8%     1  +     0    java.lang.invoke.BoundMethodHandle.bindSingle
+ 67.5%    27  +    56    Total interpreted (including elided)
+
+     Compiled + native   Method                        
+ 21.1%    24  +     2    Picture.get
+  2.4%     3  +     0    BlobFinder.<init>
+  1.6%     2  +     0    java.awt.image.ComponentColorModel.getRGBComponent
+  0.8%     0  +     1    java.lang.invoke.InvokerBytecodeGenerator.isStaticallyNameable
+  0.8%     1  +     0    sun.awt.image.ByteInterleavedRaster.getDataElements
+  0.8%     0  +     1    sun.misc.URLClassPath.getLoader
+  0.8%     1  +     0    java.awt.image.ComponentColorModel.getRGB
+  0.8%     1  +     0    sun.awt.image.ByteInterleavedRaster.putByteData
+ 29.3%    32  +     4    Total compiled
+
+         Stub + native   Method                        
+  0.8%     0  +     1    java.lang.Class.getClassLoader0
+  0.8%     0  +     1    Total stub
+
+  Thread-local ticks:
+  2.4%     3             Class loader
+
+
+Flat profile of 1.65 secs (107 total ticks): AWT-Shutdown
+
+  Thread-local ticks:
+100.0%   107             Blocked (of total)
+
+
+Flat profile of 0.15 secs (13 total ticks): DestroyJavaVM
+
+  Thread-local ticks:
+ 92.3%    12             Blocked (of total)
+100.0%     1             Class loader
+
+
+Flat profile of 0.99 secs (70 total ticks): Java2D Disposer
+
+  Thread-local ticks:
+100.0%    70             Blocked (of total)
+
+
+Flat profile of 1.89 secs (127 total ticks): AWT-AppKit
+
+  Thread-local ticks:
+100.0%   127             Unknown: no last frame
+
+
+Global summary of 2.00 seconds:
+100.0%   139             Received ticks
+  2.2%     3             Received GC ticks
+ 19.4%    27             Compilation
+  2.9%     4             Class loader
+ 91.4%   127             Unknown code

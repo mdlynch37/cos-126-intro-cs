@@ -1,0 +1,400 @@
+7.1833
+4.7932
+2.1693
+5.5287
+5.4292
+4.3962
+
+4.7415
+3.1405
+4.9862
+4.7904
+6.5038
+4.5736
+1.5536
+4.8241
+3.2200
+
+1.3599
+5.0072
+4.8623
+8.7868
+5.9680
+5.6780
+2.8890
+7.0373
+4.0447
+
+8.5711
+5.0050
+3.9388
+5.3842
+7.1861
+0.7395
+11.2294
+2.3193
+3.1920
+
+2.0748
+1.4386
+5.5551
+1.2194
+2.0200
+1.9689
+3.0944
+3.3554
+3.2844
+
+4.8672
+3.1148
+4.5484
+5.1362
+5.4271
+4.4282
+6.1057
+5.0878
+3.3001
+
+3.6127
+3.5866
+0.9337
+4.9604
+5.2275
+5.4063
+2.6668
+7.5496
+4.9053
+
+1.5241
+10.7753
+3.8296
+5.0508
+5.7311
+6.4112
+2.3309
+2.1180
+5.4643
+
+5.2543
+6.7788
+6.3090
+2.6123
+2.6848
+10.1489
+6.9855
+5.2287
+
+1.6784
+4.9375
+6.0740
+3.5254
+7.5288
+2.4060
+6.7892
+
+4.7753
+1.8155
+4.9376
+1.9890
+2.5880
+1.9004
+
+6.6751
+4.9959
+5.6813
+4.7231
+
+6.7856
+9.3988
+12.1940
+3.7748
+8.0126
+
+3.8333
+6.0872
+9.5628
+3.5249
+3.5132
+1.3989
+5.6701
+
+8.8244
+4.1422
+1.9588
+2.5044
+3.4424
+4.0159
+7.5526
+3.1081
+
+3.1091
+5.4803
+5.4299
+7.3125
+2.7728
+5.3527
+1.1621
+3.7209
+5.5620
+
+0.3771
+8.7916
+1.0111
+7.5153
+3.2028
+4.6286
+3.8650
+1.9630
+3.9003
+
+3.1515
+2.5783
+5.1697
+1.3031
+2.2046
+5.3565
+0.1544
+7.1977
+
+2.6067
+5.4443
+1.8677
+4.1954
+5.8226
+5.5141
+3.9334
+
+6.7153
+9.1554
+1.6698
+5.6593
+4.2724
+8.1757
+2.8564
+
+5.9953
+7.3044
+6.5741
+4.5315
+2.9862
+5.3968
+5.2107
+
+3.3874
+7.0007
+7.3324
+0.2698
+1.3435
+3.4516
+3.8857
+4.7064
+2.1528
+
+7.4768
+2.4696
+5.9558
+6.2683
+1.0274
+2.9019
+0.4187
+
+2.6104
+5.7860
+3.0323
+5.9167
+5.4850
+2.9402
+
+1.4856
+2.7046
+3.5055
+3.6873
+3.5156
+1.0929
+0.5437
+
+1.1249
+7.9787
+5.6943
+1.6712
+3.9514
+4.5123
+1.7377
+6.6704
+
+1.6473
+4.8333
+8.7564
+3.2314
+7.7962
+5.8621
+3.2439
+
+5.2542
+5.5902
+9.1882
+2.3852
+0.7600
+1.6369
+4.0684
+
+5.0975
+8.1394
+10.3178
+3.2455
+4.6228
+5.1382
+0.9280
+
+4.0273
+4.2386
+4.6179
+2.2354
+4.0662
+2.1829
+3.6007
+
+4.8246
+0.9864
+3.5865
+7.6348
+4.3665
+4.6098
+2.1452
+
+1.2104
+7.2101
+5.3887
+5.5183
+4.0096
+6.5424
+4.1117
+
+6.5365
+0.6009
+4.0994
+6.4207
+4.4132
+3.4073
+5.9827
+
+3.4338
+8.1286
+3.7818
+4.5391
+1.2487
+2.4477
+5.5675
+
+
+Flat profile of 2.69 secs (171 total ticks): AWT-Shutdown
+
+  Thread-local ticks:
+100.0%   171             Blocked (of total)
+
+6.6397
+4.2426
+9.3180
+3.8157
+6.4712
+5.5966
+11.3962
+
+3.3562
+3.3452
+0.9808
+1.9732
+8.9526
+5.8407
+5.5836
+
+4.6067
+5.4007
+1.4421
+5.4098
+5.0640
+6.8905
+5.9139
+
+6.0026
+7.4741
+1.3875
+4.2980
+3.0018
+5.8819
+4.8610
+
+8.4991
+1.7803
+2.5174
+5.2123
+3.5153
+4.9304
+
+
+Flat profile of 3.01 secs (197 total ticks): main
+
+  Interpreted + native   Method                        
+ 14.2%     0  +    28    java.lang.ClassLoader$NativeLibrary.load
+ 12.7%     3  +    22    com.sun.imageio.plugins.jpeg.JPEGImageReader.readImage
+  1.5%     3  +     0    sun.awt.image.ByteInterleavedRaster.getByteData
+  1.5%     3  +     0    BlobFinder.<init>
+  1.0%     0  +     2    java.util.zip.ZipFile.open
+  1.0%     2  +     0    sun.awt.image.ByteInterleavedRaster.putByteData
+  0.5%     0  +     1    java.lang.Double.longBitsToDouble
+  0.5%     0  +     1    java.io.FileOutputStream.writeBytes
+  0.5%     1  +     0    java.lang.invoke.LambdaForm.parameterType
+  0.5%     1  +     0    java.lang.Short$ShortCache.<clinit>
+  0.5%     1  +     0    java.lang.invoke.MemberName.getInvocationType
+  0.5%     0  +     1    java.lang.Class.getDeclaringClass0
+  0.5%     1  +     0    java.util.regex.Matcher.<init>
+  0.5%     1  +     0    java.lang.CharacterDataLatin1.digit
+  0.5%     1  +     0    java.lang.Class.searchMethods
+  0.5%     1  +     0    sun.awt.SunToolkit.<clinit>
+  0.5%     1  +     0    java.awt.image.ComponentSampleModel.createDataBuffer
+  0.5%     1  +     0    java.util.Formatter.parse
+  0.5%     1  +     0    sun.nio.cs.StreamEncoder.implWrite
+  0.5%     1  +     0    java.awt.image.ComponentColorModel.getRGB
+  0.5%     1  +     0    jdk.internal.org.objectweb.asm.Item.isEqualTo
+  0.5%     1  +     0    sun.awt.image.ByteComponentRaster.verify
+  0.5%     1  +     0    com.sun.imageio.plugins.jpeg.JPEGImageReader.acceptPixels
+  0.5%     1  +     0    sun.misc.URLClassPath$JarLoader.getResource
+  0.5%     0  +     1    java.io.RandomAccessFile.getFilePointer
+ 44.7%    27  +    61    Total interpreted (including elided)
+
+     Compiled + native   Method                        
+ 45.7%    89  +     1    Picture.get
+  3.6%     7  +     0    BlobFinder.<init>
+  2.0%     3  +     1    com.sun.imageio.plugins.jpeg.JPEGImageReader.acceptPixels
+  0.5%     0  +     1    java.lang.invoke.MethodType.hashCode
+  0.5%     0  +     1    java.util.concurrent.ConcurrentHashMap.get
+  0.5%     1  +     0    sun.awt.image.ByteInterleavedRaster.setDataElements
+ 52.8%   100  +     4    Total compiled
+
+         Stub + native   Method                        
+  0.5%     0  +     1    java.lang.Object.clone
+  0.5%     0  +     1    Total stub
+
+  Thread-local ticks:
+  2.0%     4             Class loader
+
+
+Flat profile of 2.36 secs (154 total ticks): Java2D Disposer
+
+  Thread-local ticks:
+100.0%   154             Blocked (of total)
+
+
+Flat profile of 2.95 secs (194 total ticks): AWT-AppKit
+
+  Thread-local ticks:
+100.0%   194             Unknown: no last frame
+
+
+Global summary of 3.02 seconds:
+100.0%   206             Received ticks
+  3.4%     7             Received GC ticks
+ 18.9%    39             Compilation
+  0.5%     1             Other VM operations
+  1.9%     4             Class loader
+ 94.2%   194             Unknown code

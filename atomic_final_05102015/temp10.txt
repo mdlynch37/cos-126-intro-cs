@@ -1,0 +1,154 @@
+7.1833
+4.7932
+2.1693
+5.5287
+5.4292
+4.3962
+
+4.7415
+3.1405
+4.9862
+4.7904
+6.5038
+4.5736
+1.5536
+4.8241
+3.2200
+
+1.3599
+5.0072
+4.8623
+8.7868
+5.9680
+5.6780
+2.8890
+7.0373
+4.0447
+
+8.5711
+5.0050
+3.9388
+5.3842
+7.1861
+0.7395
+11.2294
+2.3193
+3.1920
+
+2.0748
+1.4386
+5.5551
+1.2194
+2.0200
+1.9689
+3.0944
+3.3554
+3.2844
+
+4.8672
+3.1148
+4.5484
+5.1362
+5.4271
+4.4282
+6.1057
+5.0878
+3.3001
+
+3.6127
+3.5866
+0.9337
+4.9604
+5.2275
+5.4063
+2.6668
+7.5496
+4.9053
+
+1.5241
+10.7753
+3.8296
+5.0508
+5.7311
+6.4112
+2.3309
+2.1180
+5.4643
+
+5.2543
+6.7788
+6.3090
+2.6123
+2.6848
+10.1489
+6.9855
+5.2287
+
+
+Flat profile of 1.33 secs (98 total ticks): main
+
+  Interpreted + native   Method                        
+ 50.0%     0  +    49    java.lang.ClassLoader$NativeLibrary.load
+  6.1%     2  +     4    com.sun.imageio.plugins.jpeg.JPEGImageReader.readImage
+  1.0%     1  +     0    java.lang.reflect.Modifier.isPublic
+  1.0%     1  +     0    java.lang.Byte$ByteCache.<clinit>
+  1.0%     1  +     0    java.lang.invoke.MethodType.makeImpl
+  1.0%     1  +     0    java.io.BufferedInputStream.read1
+  1.0%     1  +     0    BlobFinder.dfs
+  1.0%     1  +     0    sun.nio.cs.FastCharsetProvider.toLower
+  1.0%     1  +     0    java.lang.invoke.InvokerBytecodeGenerator.<init>
+  1.0%     1  +     0    BlobFinder.<init>
+  1.0%     1  +     0    sun.awt.image.ByteInterleavedRaster.setDataElements
+  1.0%     1  +     0    sun.net.www.ParseUtil.encodePath
+  1.0%     1  +     0    sun.invoke.util.ValueConversions.<clinit>
+  1.0%     1  +     0    java.awt.image.ComponentColorModel.extractComponent
+  1.0%     1  +     0    java.lang.invoke.LambdaForm.bind
+  1.0%     1  +     0    java.awt.image.Raster.initIDs
+  1.0%     1  +     0    sun.awt.image.ByteInterleavedRaster.getByteData
+  1.0%     0  +     1    java.util.zip.ZipFile.open
+  1.0%     1  +     0    com.sun.imageio.spi.RAFImageInputStreamSpi.<clinit>
+ 73.5%    18  +    54    Total interpreted
+
+     Compiled + native   Method                        
+ 20.4%    17  +     3    Picture.get
+  2.0%     2  +     0    BlobFinder.<init>
+  1.0%     0  +     1    java.util.HashMap.put
+  1.0%     1  +     0    sun.awt.image.ByteInterleavedRaster.setDataElements
+  1.0%     1  +     0    sun.awt.image.ByteInterleavedRaster.putByteData
+ 25.5%    21  +     4    Total compiled
+
+         Stub + native   Method                        
+  1.0%     0  +     1    java.lang.System.arraycopy
+  1.0%     0  +     1    Total stub
+
+
+Flat profile of 6.30 secs (543 total ticks): AWT-Shutdown
+
+  Thread-local ticks:
+100.0%   543             Blocked (of total)
+
+
+Flat profile of 5.17 secs (461 total ticks): DestroyJavaVM
+
+  Thread-local ticks:
+100.0%   461             Blocked (of total)
+
+
+Flat profile of 5.76 secs (500 total ticks): Java2D Disposer
+
+  Thread-local ticks:
+100.0%   500             Blocked (of total)
+
+
+Flat profile of 6.44 secs (555 total ticks): AWT-AppKit
+
+  Thread-local ticks:
+100.0%   555             Unknown: no last frame
+
+
+Global summary of 6.51 seconds:
+100.0%   566             Received ticks
+  1.1%     6             Received GC ticks
+  3.9%    22             Compilation
+  0.2%     1             Other VM operations
+ 98.1%   555             Unknown code

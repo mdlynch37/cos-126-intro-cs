@@ -1,0 +1,273 @@
+5.0082
+2.2606
+4.0777
+2.2603
+6.4520
+10.2285
+4.5084
+8.5722
+3.5704
+5.3273
+
+5.0636
+8.4805
+3.4803
+3.6392
+5.3029
+6.9035
+2.1284
+6.9297
+2.8826
+3.7436
+
+8.1205
+6.3952
+3.2091
+5.3900
+6.3925
+5.7886
+4.5377
+5.5229
+3.2740
+7.0660
+5.0940
+3.2501
+
+3.4525
+3.9235
+7.1055
+2.8152
+3.2744
+6.1543
+3.7438
+1.0916
+1.6493
+2.7758
+5.8671
+10.5928
+6.3018
+
+1.7536
+3.6043
+9.0062
+4.3387
+2.4452
+5.3173
+5.7578
+0.9174
+5.6783
+5.1346
+7.5544
+4.4721
+
+10.6145
+4.0339
+8.6003
+2.3836
+1.5564
+0.4024
+3.9807
+5.4334
+3.1858
+6.1586
+2.2240
+5.8611
+
+1.2600
+6.7223
+4.6562
+9.1300
+7.0577
+4.3633
+5.7240
+4.3393
+2.4704
+4.4859
+3.8321
+
+0.8019
+3.6616
+3.2714
+6.4649
+7.7509
+5.9975
+1.1029
+2.9020
+1.3497
+
+5.7336
+4.5182
+3.6365
+3.5345
+8.9894
+2.1885
+5.9507
+6.1932
+5.4617
+
+3.7187
+4.7532
+4.5383
+3.2010
+3.5019
+3.3823
+1.3878
+5.8485
+
+5.7299
+17.4589
+4.0545
+6.0742
+2.4005
+2.0706
+5.6674
+3.3814
+3.1895
+
+3.1639
+1.9905
+1.6436
+5.1569
+7.9402
+0.7438
+6.8678
+
+3.3233
+7.3872
+2.6855
+5.9792
+4.6931
+1.8453
+6.7061
+
+9.3927
+6.4904
+3.0775
+3.6047
+0.6024
+3.8098
+6.0845
+
+5.8186
+1.7809
+5.8458
+7.5431
+13.8634
+1.4074
+9.4473
+3.2457
+3.6245
+
+0.9998
+2.3473
+4.4350
+8.6542
+2.7184
+4.5539
+0.9352
+1.6449
+4.2154
+
+8.2451
+2.9657
+3.9730
+2.6715
+4.5329
+5.4496
+1.9997
+5.8952
+5.0717
+
+3.6491
+1.8281
+1.8309
+3.8371
+2.3049
+5.3876
+3.8521
+1.9724
+
+3.0401
+7.4316
+2.3198
+4.9461
+8.8960
+4.3286
+3.2234
+4.2258
+4.8529
+
+
+Flat profile of 1.55 secs (112 total ticks): main
+
+  Interpreted + native   Method                        
+ 23.2%     0  +    26    java.lang.ClassLoader$NativeLibrary.load
+  8.0%     1  +     8    com.sun.imageio.plugins.jpeg.JPEGImageReader.readImage
+  2.7%     0  +     3    java.util.zip.ZipFile.open
+  2.7%     0  +     3    java.io.FileInputStream.open
+  1.8%     0  +     2    java.lang.ClassLoader$NativeLibrary.find
+  0.9%     1  +     0    java.util.regex.Matcher.<init>
+  0.9%     1  +     0    java.util.concurrent.locks.AbstractQueuedSynchronizer.<clinit>
+  0.9%     1  +     0    Picture.<init>
+  0.9%     1  +     0    BlobFinder.<init>
+  0.9%     1  +     0    sun.security.util.SecurityConstants.<clinit>
+  0.9%     1  +     0    java.lang.invoke.InvokerBytecodeGenerator.emitImplicitConversion
+  0.9%     1  +     0    BeadTracker.main
+  0.9%     1  +     0    sun.util.calendar.ZoneInfoFile.load
+  0.9%     1  +     0    sun.invoke.util.Wrapper.<clinit>
+  0.9%     1  +     0    sun.awt.image.ByteInterleavedRaster.putByteData
+  0.9%     1  +     0    java.io.OutputStream.flush
+  0.9%     0  +     1    java.io.RandomAccessFile.open
+  0.9%     0  +     1    java.io.UnixFileSystem.getBooleanAttributes0
+  0.9%     0  +     1    java.lang.Class.getDeclaredMethods0
+  0.9%     1  +     0    java.util.LinkedList.size
+  0.9%     1  +     0    sun.net.www.protocol.file.Handler.createFileURLConnection
+ 52.7%    14  +    45    Total interpreted
+
+     Compiled + native   Method                        
+ 39.3%    40  +     4    Picture.get
+  2.7%     3  +     0    BlobFinder.<init>
+  0.9%     1  +     0    sun.awt.image.ByteInterleavedRaster.setDataElements
+  0.9%     1  +     0    com.sun.imageio.plugins.jpeg.JPEGImageReader.acceptPixels
+  0.9%     1  +     0    sun.awt.image.ByteInterleavedRaster.putByteData
+ 44.6%    46  +     4    Total compiled
+
+         Stub + native   Method                        
+  0.9%     0  +     1    java.lang.Object.getClass
+  0.9%     0  +     1    Total stub
+
+  Thread-local ticks:
+  1.8%     2             Class loader
+
+
+Flat profile of 2.25 secs (176 total ticks): AWT-Shutdown
+
+  Thread-local ticks:
+100.0%   176             Blocked (of total)
+
+
+Flat profile of 0.92 secs (82 total ticks): DestroyJavaVM
+
+  Thread-local ticks:
+100.0%    82             Blocked (of total)
+
+
+Flat profile of 2.02 secs (156 total ticks): Java2D Disposer
+
+  Thread-local ticks:
+100.0%   156             Blocked (of total)
+
+
+Flat profile of 2.40 secs (189 total ticks): AWT-AppKit
+
+  Thread-local ticks:
+100.0%   189             Unknown: no last frame
+
+
+Global summary of 2.47 seconds:
+100.0%   197             Received ticks
+  1.0%     2             Received GC ticks
+ 14.7%    29             Compilation
+  0.5%     1             Other VM operations
+  1.0%     2             Class loader
+ 95.9%   189             Unknown code

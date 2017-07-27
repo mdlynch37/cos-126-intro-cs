@@ -1,0 +1,17 @@
+
+Flat profile of 0.63 secs (56 total ticks): main
+
+  Interpreted + native   Method                        
+ 91.1%     0  +    51    java.util.zip.ZipFile.open
+  3.6%     0  +     2    java.io.FileInputStream.open
+  1.8%     0  +     1    java.io.FileInputStream.readBytes
+ 96.4%     0  +    54    Total interpreted
+
+  Thread-local ticks:
+  3.6%     2             Class loader
+
+
+Global summary of 0.63 seconds:
+100.0%    56             Received ticks
+  8.9%     5             Compilation
+  3.6%     2             Class loader

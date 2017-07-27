@@ -1,0 +1,61 @@
+Name:     Murray Lynch
+Login:    mdlynch
+Precept:  P04
+Filename: encode.toy
+
+This program encodes 4 bits with Hamming code, 
+outputting 7 bits for each 4-bit chunk
+
+Use "java TOY encode.toy" to run the program.
+
+Sample run:
+% java TOY encode.toy < encode1.txt
+<initial core dump>
+0000
+0001
+0000
+0001
+0000
+0001
+0000
+<final core dump>
+
+-----------------------------------------------------------------------------
+loc value  pseudocode (for the humans)   Java equivalent (optional)
+-----------------------------------------------------------------------------
+reads in first value to determine if
+end of file
+10: 8AFF   read R[A]                     
+11: 7101   R[1] <- 0001                  
+12: 1BA1   R[B] <- R[A] + R[1]
+13: CB25   if (R[B] == 0) goto 25
+
+reads rest of set of 4 bits
+14: 8BFF   read R[B]                     
+15: 8CFF   read R[C]
+16: 8DFF   read R[D]
+
+calculates parity bits
+17: 4EAB   R[E] <- R[A] ^ R[B]         
+18: 4EED   R[E] <- R[E] ^ R[D]           
+
+19: 4FAC   R[F] <- R[A] ^ R[C]           
+1A: 4FFD   R[F] <- R[F] ^ R[D]            
+
+1B: 49BC   R[9] <- R[B] ^ R[C]                         
+1C: 499D   R[9] <- R[9] ^ R[D]
+
+writes original 4 bits and 3 parity bits
+to StdOut
+1D: 9AFF   write R[A]
+1E: 9BFF   write R[B]
+1F: 9CFF   write R[C]
+20: 9DFF   write R[D]
+21: 9EFF   write R[E]
+22: 9FFF   write R[F]
+23: 99FF   write R[9]
+
+repeat reading data into StdIn
+24: C010  goto 10 
+
+25: 0000  halt                     

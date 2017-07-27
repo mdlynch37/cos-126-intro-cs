@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!-- JNLP File for Visual X-TOY 7.1 --> 
+<jnlp 
+  spec="1.0+" 
+  codebase="http://introcs.cs.princeton.edu/xtoy/project/webstart" 
+  href="toy.jnlp"> 
+  <information> 
+    <title>Visual X-TOY 7.1 for Java 1.6</title> 
+    <vendor>CS Dept., Princeton University</vendor> 
+    <homepage href="http://www.introcs.cs.princeton.edu/xtoy/site/"/> 
+    <description>Visual X-TOY Integrated Development Environment</description> 
+    <description kind="short">An editing and simulation tool for TOY 7.1.</description> 
+    <icon href="http://introcs.cs.princeton.edu/xtoy/project/webstart/toyWebstartIcon.gif"/> 
+    <offline-allowed/> 
+  </information> 
+  <security> 
+      <all-permissions/> 
+  </security> 
+  <resources> 
+    <j2se version="1.6+"/>
+    <jar href="toy.jar"/>
+  </resources> 
+  <application-desc main-class="edu.princeton.toy.TMain"/> 
+</jnlp> 
+

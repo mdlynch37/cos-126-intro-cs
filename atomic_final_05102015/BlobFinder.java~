@@ -1,0 +1,48 @@
+/***********************************************************
+
+Names: Rene Chalom, Murray Lynch
+NetIDs: rchalom, mdlynch
+Precept: P04
+Preceptor: Stephen Cook
+
+Dependencies: 
+
+Citations: Point.java; Atomic Nature Slideshow
+
+Description: 
+
+************************************************************/
+
+public class BlobFinder {
+  // constants
+  private static final double TAU = 180.0;
+  
+  // instance variables
+  
+  
+  // locates all foreground pixels in the same blog as pixel (i, j),
+  // using depth-first search
+  private dfs(int i, int j) {
+    
+  }
+  
+  // find all blobs in the picture using the luminance threshold tau
+  public BlobFinder(Picture picture, double tau) {
+    
+  }
+  
+  // return all beads with >= P pixels
+  public Blob[] getBeads(int P) {
+  
+    return null; 
+  }
+  
+  // for testing
+  public static void main(String[] args) {
+    
+  }
+  
+  
+ 
+  
+}
